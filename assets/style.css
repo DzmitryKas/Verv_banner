@@ -170,9 +170,10 @@ li::before {
   }
 }
 
-@media screen and (min-width: 700px) {
-  .main {
-display: none;
-}
+@media screen and (min-width: 500px) {
+  .wrapper-trial,
+  .wrapper-join {
+    width: 400px;
+  }
 }
 
